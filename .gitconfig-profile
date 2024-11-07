@@ -1,0 +1,4 @@
+[user]
+        name = # Add name
+        email = # Add email
+	signingkey = # Add public SSH signing key

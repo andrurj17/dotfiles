@@ -1,0 +1,35 @@
+[includeIf "gitdir:${path}"] # Edit path
+  path = .gitconfig-profile
+# Add extra paths and profiles as needed
+
+[branch]
+        sort = -committerdate
+[commit]
+        gpgsign = true
+        verbose = true
+[core]
+        autocrlf = input
+        editor = vim
+        pager = "vim -"
+	# sshCommand = "ssh -v"
+[diff]
+        algorithm = histogram
+        colorMoved = default
+[gpg]
+        format = ssh
+[gpg "ssh"]
+        program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+[help]
+        autocorrect = 10
+[init]
+        defaultBranch = main
+[merge]
+        conflictstyle = zdiff3
+        tool = meld
+[pull]
+        ff = only
+[push]
+        default = current
+        autoSetupRemote = true
+[rebase]
+        autosquash = true

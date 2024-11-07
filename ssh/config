@@ -1,0 +1,6 @@
+Host github.com-profile
+  HostName github.com
+  User git
+  IdentityFile # Add public ssh key file
+  IdentitiesOnly yes
+# Add extra profiles as needed

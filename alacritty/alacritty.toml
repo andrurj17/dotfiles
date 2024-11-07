@@ -1,0 +1,48 @@
+[general]
+import = ["/Users/Andres.Justo/Documents/public_gits/dracula_alacritty/dracula.toml"]
+live_config_reload = true
+
+[font]
+size = 12
+
+[font.bold]
+family = "Fira Code"
+style = "Bold"
+
+[font.bold_italic]
+family = "Fira Code"
+style = "Bold Italic"
+
+[font.italic]
+family = "Fira Code"
+style = "Italic"
+
+[font.normal]
+family = "Fira Code"
+style = "Regular"
+
+[scrolling]
+history = 5000
+
+[selection]
+save_to_clipboard = true
+
+[terminal.shell]
+# Fish config
+args = ["--login"]
+program = "/usr/local/bin/fish"
+# Tmux config (Tmux opnes really slow)
+# args = ["new-session", "-a", "-s", "general"]
+# program = "/usr/local/bin/tmux"
+
+[window]
+decorations_theme_variant = "Dark"
+option_as_alt = "OnlyLeft"
+
+[window.dimensions]
+columns = 120
+lines = 36
+
+[window.padding]
+x = 12
+y = 10
